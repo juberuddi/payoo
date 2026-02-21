@@ -10,7 +10,8 @@ document.getElementById("btn-login").addEventListener('click',function(){
 
     if(Number == "01321901053" && pin == "1234") {
         alert('login success');
-        window.location.assign("/home.html");
+        window.location.href = "home.html";
+        // window.location.assign("/home.html");
     }else{
         alert('login failed');
         return;
