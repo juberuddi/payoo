@@ -8,7 +8,7 @@ document.getElementById("btn-login").addEventListener('click',function(){
     const pin =pinInput.value;
     console.log(pin);
 
-    if(Number == "01321901053" && pin == "1234") {
+    if(Number.length === 11 && pin == "1234") {
         alert('login success');
         window.location.href = "home.html";
         // window.location.assign("/home.html");
